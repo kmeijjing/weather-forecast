@@ -1,0 +1,25 @@
+interface Weather {
+  date: string,
+  city: string,
+  country: string,
+  temp: number,
+  feels_like: number,
+  cloud: number,
+  humidity: number,
+  visibility: number,
+  wind_kph: number,
+  wind_direction: string,
+  uv: number,
+  rain: number,
+  snow: number,
+  condition: string,
+  icon: string,
+  is_day: boolean,
+  sunrise: string,
+  sunset: string,
+  moon_phase: string,
+  moon_illumination: number,
+  last_updated: string,
+}
+
+export { Weather }
